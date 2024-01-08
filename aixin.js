@@ -2,8 +2,8 @@
 // @name         鼠标点击爱心特效
 // @license      MIT
 // @namespace    http://tampermonkey.net/
-// @version      v0.0.0.2
-// @description  鼠标在页面点击会出现各种颜色的小心心111
+// @version      v0.0.0.3
+// @description  鼠标在页面点击会出现各种颜色的小心心111222
 // @author       You
 // @match        *://*/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
