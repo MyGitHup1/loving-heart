@@ -3,7 +3,7 @@
 // @license      MIT
 // @namespace    http://tampermonkey.net/
 // @version      v0.0.0.3
-// @description  鼠标在页面点击会出现各种颜色的小心心111222
+// @description  鼠标在页面点击会出现各种颜色的小心心111222333
 // @author       You
 // @match        *://*/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
