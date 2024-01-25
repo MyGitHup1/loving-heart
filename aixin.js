@@ -2,7 +2,7 @@
 // @name         鼠标点击爱心特效
 // @license      MIT
 // @namespace    http://tampermonkey.net/
-// @version      v0.0.0.5
+// @version      v0.0.0.6
 // @description  鼠标在页面点击会出现各种颜色的小心心111222333444
 // @author       You
 // @match        *://*/*
@@ -25,7 +25,7 @@
         })();
         init();
         function init(){
-                css(".heart{z-index:99999;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: absolute;}.heart:after{top: -5px;}.heart:before{left: -5px;}");
+                css(".heart{pointer-events:none;z-index:99999;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: absolute;}.heart:after{top: -5px;}.heart:before{left: -5px;}");
                 attachEvent();
                 gameloop();
         }
